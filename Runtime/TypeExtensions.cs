@@ -3,17 +3,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public static class TypeExtensions
+namespace AarquieSolutions.TypeExtensions
 {
-    public static object GetDefaultValue(this Type type)
+    public static class TypeExtensions
     {
-        if (type.IsValueType)
+        public static object GetDefaultValue(this Type type)
         {
-            return Activator.CreateInstance(type);
-        }
-        else
-        {
-            return null;
+            if (type.IsValueType)
+            {
+                return Activator.CreateInstance(type);
+            }
+            else
+            {
+                return null;
+            }
         }
     }
 }
