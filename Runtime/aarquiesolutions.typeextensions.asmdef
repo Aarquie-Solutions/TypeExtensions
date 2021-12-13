@@ -1,6 +1,6 @@
 {
     "name": "aarquiesolutions.typeextensions",
-    "rootNamespace": "AarquieSolutions.TypeExtensions",
+    "rootNamespace": "AarquieSolutions.Extensions.Type",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

@@ -3,11 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace AarquieSolutions.TypeExtensions
+namespace AarquieSolutions.Extensions.Type
 {
     public static class TypeExtensions
     {
-        public static object GetDefaultValue(this Type type)
+        public static object GetDefaultValue(this System.Type type)
         {
             if (type.IsValueType)
             {
